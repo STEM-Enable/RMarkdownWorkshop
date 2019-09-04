@@ -12,7 +12,7 @@ Learning to use a screenreader properly is well outside the scope of this worksh
 
 Please also note that these are instructions are not intended to teach you how to use a screenreader and they are not suitable for someone who usually uses a screenreader. These instructions exist solely to aid lecturers or teaching fellows in understanding how the structure of a webpage is used by a screenreader.
 
-## What to do to have a go
+### What to do to have a go
 
 To use ChromeVox to read mathematical text correctly you **must** use the keyboard, not the mouse. Mathematics will be read incorrectly if the mouse is used.
 
@@ -43,7 +43,7 @@ To use ChromeVox to read mathematical text correctly you **must** use the keyboa
 | O		  | List						|
 | I		  | List item						|
 
-### Example of ChromeVox reading maths
+## Example of ChromeVox reading maths
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o059smdYHMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -16,8 +16,8 @@ Basic familiarity with R and LaTeX are assumed!
  * [Information: R Markdown](https://rmarkdown.rstudio.com/)
  * [Help: R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
  * [Help: R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
- * [Test: ChromeVox add-in to Chrome browser](chromevox.html)
  * [Test: Word 365 Learning Tools (Immersive)](immersive.html)
+ * [Test: ChromeVox add-in to Chrome browser](chromevox.html)
 5. **Part 3: Think, Pair, Share**
  * What would it take to change my practice?
  * What small steps will I commit to? 
