@@ -1,0 +1,70 @@
+---
+title: "Example"
+author: ''
+date: ''
+documentclass: article
+#fontsize: 12pt
+#documentclass: extarticle
+#fontsize: 20pt
+output:
+  pdf_document:
+    dev: pdf
+    keep_tex: yes
+    fig_caption: no
+  html_document:
+    dev: svg
+    keep_md: yes
+    toc: yes
+    fig_caption: yes
+  word_document:
+    toc: yes
+    keep_md: yes
+header-includes: \usepackage{hyperref} \usepackage{graphicx} #\usepackage{float}\floatplacement{figure}{H} #\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\renewcommand{\baselinestretch}{1.25}
+---
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: { linebreaks: { automatic: true } },
+  "HTML-CSS": { linebreaks: { automatic: true } },
+         SVG: { linebreaks: { automatic: true } }
+});
+</script>
+
+# Arc length 
+We often need to know the length of a curve between two points,
+e.g. what is the length of the ropes holding Clifton suspension bridge (see Exercise Sheet 3).
+
+**Idea.** Given a curve $y=y(x)$
+
+\centering
+
+![[Interactive plot of curve](https://www.desmos.com/calculator/t8dz6vlmnz)\label{arclength1}](arclength1.png){width=30% longdesc=https://www.desmos.com/calculator/t8dz6vlmnz}
+
+\flushleft
+
+Let $S$ be the arc length and  $\Delta S$ a short section of it.
+
+\centering
+
+![[Interactive plot of short section of curve dx](https://www.desmos.com/calculator/g5duc4kmfp)\label{arclengthdx}](arclengthdx.png){width=30% longdesc=https://www.desmos.com/calculator/g5duc4kmfp}
+
+\flushleft
+By Pythagoras' Theorem,
+$$
+\Delta S^2 \approx \Delta x^2+\Delta y^2
+\qquad \Rightarrow\qquad
+\left(\dfrac{\Delta S}{\Delta x}\right)^2 \approx 1+\left(\dfrac{\Delta y}{\Delta x}\right)^2
+$$
+As $\Delta x\to0$ this becomes an identity
+$$
+\left(\dfrac{dS}{dx}\right)^2 = 1+\left(\dfrac{dy}{dx}\right)^2
+\qquad\Rightarrow\qquad
+\dfrac{dS}{dx} = \sqrt{1+\left(\dfrac{dy}{dx}\right)^2}
+$$
+The arclength between $x=a$ and $x=b$ is then
+$$
+\begin{aligned}
+  S(a,b) &= \int_a^b\dfrac{dS}{dx}dx\\
+  &= \int_a^b\sqrt{1+\left(\dfrac{dy}{dx}\right)^2}dx.
+\end{aligned}
+$$
+
