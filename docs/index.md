@@ -16,7 +16,6 @@ Basic familiarity with R and LaTeX are assumed!
  * [Information: R Markdown](https://rmarkdown.rstudio.com/)
  * [Help: R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
  * [Help: R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
- * [Test: Read&Write add-in to Chrome browser](readwrite.html)
  * [Test: ChromeVox add-in to Chrome browser](chromevox.html)
  * [Test: Word 365 Learning Tools (Immersive)](immersive.html)
 5. **Part 3: Think, Pair, Share**
