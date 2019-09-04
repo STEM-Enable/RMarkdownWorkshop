@@ -1,0 +1,35 @@
+---
+title: "Template"
+author: ''
+date: ''
+documentclass: article
+#fontsize: 12pt
+#documentclass: extarticle
+#fontsize: 20pt
+output:
+  pdf_document:
+    dev: pdf
+    keep_tex: yes
+    fig_caption: no
+  html_document:
+    dev: svg
+    keep_md: yes
+    toc: yes
+    fig_caption: yes
+  word_document:
+    toc: yes
+    keep_md: yes
+header-includes: \usepackage{hyperref} \usepackage{graphicx} #\usepackage{float}\floatplacement{figure}{H} #\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\renewcommand{\baselinestretch}{1.25}
+---
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  CommonHTML: { linebreaks: { automatic: true } },
+  "HTML-CSS": { linebreaks: { automatic: true } },
+         SVG: { linebreaks: { automatic: true } }
+});
+</script>
+
+# Your first heading
+
+* Put your content here!
+
