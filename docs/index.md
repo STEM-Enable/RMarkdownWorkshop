@@ -11,8 +11,8 @@ Basic familiarity with R and LaTeX are assumed!
 
 1. [Background: Technical requirements](technical.html)
 2. [Introduction: A 15 year journey... from retrofitting to(wards) inclusive design?](https://people.bath.ac.uk/cspehj/slides/AccessibleMathsRetroToInc/#/4)
-3. **[Part 1: Demonstration](../examples/arclengthInR.Rmd)**
-4. **[Part 2: Have a go at producing your own document starting with a template](../examples/template.Rmd)** 
+3. **[Part 1: Demonstration](https://github.com/STEM-Enable/RMarkdownWorkshop/raw/master/examples/arclengthInR.Rmd)**
+4. **[Part 2: Have a go at producing your own document starting with a template](https://github.com/STEM-Enable/RMarkdownWorkshop/raw/master/examples/template.Rmd)**
  * [Information: R Markdown](https://rmarkdown.rstudio.com/)
  * [Help: R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
  * [Help: R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
