@@ -55,4 +55,8 @@ It is also possible to use the [TextHelp Read&Write](https://chrome.google.com/w
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i8fM8Z23h00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Example of Read&Write reading maths
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GTnyNJ4hKp0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Return to plan](index.html)
