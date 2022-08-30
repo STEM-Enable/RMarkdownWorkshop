@@ -2,7 +2,7 @@
 
 ## Structural integrity
 
-A document has structural integrity if each component within it retains the structure originally given to it by the author even when transformed to another format or interacted with using technology. For instance, when an author writes a fraction they define the numerator and denominator. A format that has structural integrity retains the association between these and the fraction to which they belong.
+A document has structural integrity if each component within it retains the structure originally given to it by the author, even when transformed to another format or interacted with using technology. For instance, when an author writes a fraction they define the numerator and denominator. A format with structural integrity retains the association between these and the fraction to which they belong.
 
 ### Inadequate structure
 
