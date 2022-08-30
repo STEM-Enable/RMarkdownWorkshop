@@ -107,15 +107,9 @@ Given a curve $y=y(x)$
 
 <iframe src="https://www.desmos.com/calculator/fd09vdozmt?embed" width="100%" height="400px" data-external="1"></iframe>
 
-Accessible interactive graph at [https://www.desmos.com/calculator/t8dz6vlmnz]
-
-
 Let $S$ be the arc length and  $\Delta S$ a short section of it.
 
 <iframe src="https://www.desmos.com/calculator/qvrxafeubg?embed" width="100%" height="400px" data-external="1"></iframe>
-
-Accessible interactive graph at [https://www.desmos.com/calculator/g5duc4kmfp]
-
 
 ### Derivation of Arc Length
 
