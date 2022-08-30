@@ -1,25 +1,30 @@
 ---
 title: "Example"
-author: ''
-date: ''
+author: 'Emma Cliffe'
+date: '2022'
 documentclass: article
-#fontsize: 12pt
+fontsize: 12pt
 #documentclass: extarticle
-#fontsize: 20pt
+#fontsize: 17pt
+classoption: a4paper
+geometry: margin=2.5cm
+linkcolor: blue
 output:
-  pdf_document:
-    dev: pdf
-    keep_tex: yes
-    fig_caption: no
-  html_document:
-    dev: svg
-    keep_md: yes
-    toc: yes
-    fig_caption: yes
   word_document:
     toc: yes
+  html_document:
+    dev: svg
+    fig_caption: yes
     keep_md: yes
-header-includes: \usepackage{hyperref} \usepackage{graphicx} #\usepackage{float}\floatplacement{figure}{H} #\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\renewcommand{\baselinestretch}{1.25}
+    self_contained: no
+    toc: yes
+  pdf_document:
+    dev: pdf
+    toc: yes
+    latex_engine: pdflatex
+    fig_caption: true
+    keep_tex: yes
+header-includes: #\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\renewcommand{\baselinestretch}{1.25}
 ---
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -29,25 +34,45 @@ MathJax.Hub.Config({
 });
 </script>
 
+# Alternative formats
+
+It is recommended that you [read this resource on the web](./arclengthInR.html) but you can also download [this resource as a PDF](./arclengthInR.pdf) or download [this resource as a Word document](./arclengthInR.docx). 
+
 # Arc length 
 We often need to know the length of a curve between two points,
 e.g. what is the length of the ropes holding Clifton suspension bridge (see Exercise Sheet 3).
 
-**Idea.** Given a curve $y=y(x)$
+## Visualisation
+
+Given a curve $y=y(x)$
 
 \centering
 
-![[Interactive plot of curve](https://www.desmos.com/calculator/t8dz6vlmnz)\label{arclength1}](arclength1.png){width=30% longdesc=https://www.desmos.com/calculator/t8dz6vlmnz}
+```{r echo=FALSE, out.height="20%", screenshot.alt="arclength1.png"}
+knitr::include_url("https://www.desmos.com/calculator/fd09vdozmt?embed")
+```
 
 \flushleft
+
+Accessible interactive graph at https://www.desmos.com/calculator/t8dz6vlmnz
+
 
 Let $S$ be the arc length and  $\Delta S$ a short section of it.
 
 \centering
 
-![[Interactive plot of short section of curve dx](https://www.desmos.com/calculator/g5duc4kmfp)\label{arclengthdx}](arclengthdx.png){width=30% longdesc=https://www.desmos.com/calculator/g5duc4kmfp}
+```{r echo=FALSE, out.height="20%", screenshot.alt="arclengthdx.png"}
+knitr::include_url("https://www.desmos.com/calculator/qvrxafeubg?embed")
+```
 
 \flushleft
+
+Accessible interactive graph at https://www.desmos.com/calculator/g5duc4kmfp
+
+
+
+## Derivation of Arc Length
+
 By Pythagoras' Theorem,
 $$
 \Delta S^2 \approx \Delta x^2+\Delta y^2
