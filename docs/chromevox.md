@@ -105,24 +105,16 @@ e.g. what is the length of the ropes holding Clifton suspension bridge (see Exer
 
 Given a curve $y=y(x)$
 
-\centering
-
 <iframe src="https://www.desmos.com/calculator/fd09vdozmt?embed" width="100%" height="400px" data-external="1"></iframe>
 
-\flushleft
-
-Accessible interactive graph at https://www.desmos.com/calculator/t8dz6vlmnz
+Accessible interactive graph at [https://www.desmos.com/calculator/t8dz6vlmnz]
 
 
 Let $S$ be the arc length and  $\Delta S$ a short section of it.
 
-\centering
-
 <iframe src="https://www.desmos.com/calculator/qvrxafeubg?embed" width="100%" height="400px" data-external="1"></iframe>
 
-\flushleft
-
-Accessible interactive graph at https://www.desmos.com/calculator/g5duc4kmfp
+Accessible interactive graph at [https://www.desmos.com/calculator/g5duc4kmfp]
 
 
 ### Derivation of Arc Length

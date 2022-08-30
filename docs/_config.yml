@@ -1,6 +1,6 @@
 markdown: kramdown
-title: Using R as a basis for writing an accessible mathematical document
-description: Workshop CETL-MSOR 2019
+title: Using (R) Markdown to write an accessible mathematical document
+description:  Workshop CETL-MSOR 2022 and 2019
 email: mash-access@bath.ac.uk
 theme: jekyll-theme-cayman
 show_downloads: true
