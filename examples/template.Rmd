@@ -3,23 +3,28 @@ title: "Template"
 author: ''
 date: ''
 documentclass: article
-#fontsize: 12pt
+fontsize: 12pt
 #documentclass: extarticle
-#fontsize: 20pt
+#fontsize: 17pt
+classoption: a4paper
+geometry: margin=2.5cm
+linkcolor: blue
 output:
-  pdf_document:
-    dev: pdf
-    keep_tex: yes
-    fig_caption: no
-  html_document:
-    dev: svg
-    keep_md: yes
-    toc: yes
-    fig_caption: yes
   word_document:
     toc: yes
+  pdf_document:
+    dev: pdf
+    toc: yes
+    latex_engine: pdflatex
+    fig_caption: true
+    keep_tex: yes
+  html_document:
+    dev: svg
+    fig_caption: yes
     keep_md: yes
-header-includes: \usepackage{hyperref} \usepackage{graphicx} #\usepackage{float}\floatplacement{figure}{H} #\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\renewcommand{\baselinestretch}{1.25}
+    self_contained: no
+    toc: yes
+header-includes: #\usepackage{helvet}\renewcommand{\familydefault}{\sfdefault}\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}\renewcommand{\baselinestretch}{1.25}
 ---
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
